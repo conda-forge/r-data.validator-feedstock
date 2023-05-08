@@ -1,11 +1,11 @@
-About r-data.validator
-======================
+About r-data.validator-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-data.validator-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=data.validator
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-data.validator-feedstock/blob/main/LICENSE.txt)
 
 Summary: Validate dataset by columns and rows using convenient predicates inspired by 'assertr' package. Generate good looking HTML report or print console output to display in logs of your data processing pipeline.
 
