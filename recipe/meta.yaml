@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/data.validator_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/data.validator/data.validator_{{ version }}.tar.gz
-  sha256: dc8f3374e93eeba58dea4dbf04195daa121aa54b8abbddbeb007adae26a7cb6c
+  sha256: 9dbd6a3a7b347c245c11f7b34d392d64b3cb42fc15eb3c28905f8bebfdcd0c85
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
